@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Зографска електронна научноизследователска библиотека</description>
+    <author>Andrej Bojadžiev</author>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>zograf</target>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <permissions user="admin" password="Slav_ExistDB2018" group="dba" mode="rw-rw-r--"/>
+</meta>
